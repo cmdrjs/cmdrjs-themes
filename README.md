@@ -1,2 +1,1 @@
-# themes
-Extra themes for cmdrjs.
+# cmdrjs-themes
