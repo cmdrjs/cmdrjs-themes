@@ -1,0 +1,45 @@
+/* dos */
+@font-face {
+    font-family: 'DOS VGA 437';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/DOSVGA437.woff) format('woff')
+}
+.cmdr-shell--dos {        
+    color: #C0C0C0;
+    background: #000000;
+    font-family: 'DOS VGA 437';
+    font-size: 8pt;
+}
+
+/* ubuntu */
+@font-face {
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: 
+        local('Ubuntu Mono'), 
+        local('UbuntuMono-Regular'), 
+        url(fonts/ubuntumono.woff2) format('woff2'),
+        url(fonts/ubuntumono.woff) format('woff');
+}
+.cmdr-shell--ubuntu {        
+    color: #FFFFFF;
+    background: #2f0b24;
+    font-family: 'Ubuntu Mono';
+    font-size: 10pt;
+}
+
+/* deusex */
+@font-face {
+    font-family: 'Deus Ex Console';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/DeusExConsole.woff) format('woff')
+}
+.cmdr-shell--deusex {        
+    color: #CACCCE;
+    background: #1D1E24;
+    font-family: 'Deus Ex Console';
+    font-size: 8pt;
+}

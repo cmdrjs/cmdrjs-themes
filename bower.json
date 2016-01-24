@@ -1,0 +1,9 @@
+{
+  "name": "cmdrjs-themes",
+  "description": "Extra themes for cmdrjs.",
+  "keywords":  ["cmdrjs", "theme"],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cmdrjs/cmdrjs-themes.git"
+  }
+}

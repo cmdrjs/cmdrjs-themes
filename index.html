@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>cmdrjs-themes</title>
+    <link rel="stylesheet" type="text/css" href="bower_components/cmdrjs/dist/cmdr.css" />
+    <link rel="stylesheet" type="text/css" href="cmdr-themes.css" />
+    <style>
+        .container {
+            height: 300px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>    
+    <div class="container" data-theme="dos"></div>
+    <div class="container" data-theme="ubuntu"></div>
+    <div class="container" data-theme="quake"></div>
+    <div class="container" data-theme="deusex"></div>
+        
+    <script src="bower_components/cmdrjs/dist/cmdr.js"></script>
+    <script>        
+        var containers = document.getElementsByClassName('container');
+        for (var i = 0, l = containers.length; i < l; i++) {
+            new cmdr.Shell(containers[i], { theme: containers[i].getAttribute('data-theme') });
+        }
+    </script>
+</body>
+</html>
